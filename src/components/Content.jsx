@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Text, Button, Center } from '@chakra-ui/react'
+import { Box, Flex, Heading, Image, Text, Button, } from '@chakra-ui/react'
 import React from 'react'
 
 const Content = () => {

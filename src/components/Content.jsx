@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Image, Text, Button, } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Content = () => {
   return (
@@ -16,10 +17,10 @@ const Content = () => {
                     world
                 </Text>
                 <Flex justifyContent='space-between'>
-                    <Button size='md' colorScheme='orange' mt='24px' w='25%' borderRadius='md'>
+                    <Button as={Link} to="/contact" size='md' colorScheme='orange' mt='24px' w='25%' borderRadius='md'>
                         Hire me
                     </Button>
-                    <Button size='md' colorScheme='orange' mt='24px' w='70%' borderRadius='md'>
+                    <Button as={Link} to="/projects" size='md' colorScheme='orange' mt='24px' w='70%' borderRadius='md'>
                         See my projects
                     </Button>
                 </Flex>

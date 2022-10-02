@@ -9,8 +9,8 @@ import {
     useColorMode,
     Flex
   } from '@chakra-ui/react'
-
 import {MoonIcon} from '@chakra-ui/icons'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -23,19 +23,19 @@ const Navbar = () => {
         <Breadcrumb fontWeight='medium' fontSize='3xl'
                     separator=''>
             <BreadcrumbItem>
-                <BreadcrumbLink href='#'>About Me</BreadcrumbLink>
+                <BreadcrumbLink as={Link} to='/about'>About Me</BreadcrumbLink>
             </BreadcrumbItem>
 
             <BreadcrumbItem>
-                <BreadcrumbLink href='#'>Skills</BreadcrumbLink>
+                <BreadcrumbLink as={Link} to='/skills'>Skills</BreadcrumbLink>
             </BreadcrumbItem>
 
             <BreadcrumbItem isCurrentPage>
-                <BreadcrumbLink href='#'>Projects</BreadcrumbLink>
+                <BreadcrumbLink as={Link} to='/projects'>Projects</BreadcrumbLink>
             </BreadcrumbItem>
 
             <BreadcrumbItem isCurrentPage>
-                <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
+                <BreadcrumbLink as={Link} to='/contact'>Contact</BreadcrumbLink>
             </BreadcrumbItem>
         </Breadcrumb>
         <Box cursor='pointer' 

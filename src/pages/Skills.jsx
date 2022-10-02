@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import { Flex, Heading, Text, Stack, Progress, Code, Box, ListItem, UnorderedList} from '@chakra-ui/react'
+import { Flex, Heading, Text, Stack, Progress, Code, Box, UnorderedList} from '@chakra-ui/react'
 
 const Skills = () => {
   return (

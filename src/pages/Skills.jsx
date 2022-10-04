@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <Navbar />
-      <Flex direction='column' p='35px' justify='center'>
+      <Flex direction='column' p='35px' justify='center' maxW='800px' margin='auto'>
         <Heading as='h2' size='lg'>My skills</Heading>
         <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, alias.</Text>
         <Code size='lg' colorScheme='orange'>console.log('Hello, World!')</Code>

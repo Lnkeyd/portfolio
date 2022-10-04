@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <Flex align='center' justify='space-evenly'>
-        <Breadcrumb fontWeight='medium' fontSize='3xl'
+        <Breadcrumb fontWeight='medium' fontSize='2xl'
                     separator=''>
             <BreadcrumbItem>
                 <BreadcrumbLink as={Link} to='/about'>About Me</BreadcrumbLink>

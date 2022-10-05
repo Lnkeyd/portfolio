@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import { Flex, Heading, Text, Stack, Progress, Code, Box, UnorderedList} from '@chakra-ui/react'
 
 const Skills = () => {
   return (
     <>
-      <Navbar />
       <Flex direction='column' p='35px' justify='center' maxW='800px' margin='auto'>
         <Heading as='h2' size='lg'>My skills</Heading>
         <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, alias.</Text>

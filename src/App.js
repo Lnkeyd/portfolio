@@ -11,13 +11,16 @@ import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import MyContext from './Context'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   const { colorMode } = useColorMode();
   return (
     <MyContext.Provider value={'HAHAHA'}> 
-        <Box h='100vh' bg={colorMode === 'light' ? 'orange.50' : 'gray.900'} className="App">
+        <Box minHeight='100vh' bg={colorMode === 'light' ? 'orange.50' : 'gray.900'} className="App">
           <Router>
+            <Navbar />
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
@@ -25,6 +28,7 @@ function App() {
               <Route path="/projects" element={<Projects/>}/>
               <Route path="/contact" element={<Contact/>}/>
             </Routes>
+            <Footer/>
           </Router>
         </Box>
     </MyContext.Provider>

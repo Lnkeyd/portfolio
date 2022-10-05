@@ -1,12 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import { Flex, Heading, Text, Stack, useColorMode, Box, Image} from '@chakra-ui/react'
 
 const About = () => {
   const { colorMode } = useColorMode();
   return (
     <>
-      <Navbar />
       <Flex direction='column' p='35px' justify='center'
       m='auto'
       maxW='800px'>

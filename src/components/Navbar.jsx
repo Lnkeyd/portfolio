@@ -88,6 +88,7 @@ const Navbar = () => {
                 <MoonIcon
                     w={5} h={5}
                     color={colorMode === 'light' ? '' : 'gray.900'}
+                    style={{transform: 'translateX(5%) translateY(5%)'}}
                 />
             </Box>
             {!laptopView && (

@@ -68,7 +68,7 @@ const Contact = () => {
             </Button>
           </Stack>
         </FormControl>
-        <Flex mt='40px' alignItems='center'>
+        <Flex mt='40px' alignItems='center' flexWrap='wrap'>
           <Highlight query='...Or just email me here:' styles={{ px: '1', py: '1', bg: 'orange.100' }}>
             ...Or just email me here:
           </Highlight>
